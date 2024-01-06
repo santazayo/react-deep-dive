@@ -148,6 +148,9 @@
   },
   "active": "5732454bf15a6e34",
   "lastOpenFiles": [
+    "README.md",
+    "1장/상욱/1.1_자바스크립트의_동등_비교.md",
+    "2024-01-03.md",
     "objects/pack",
     "objects/info",
     "objects",
@@ -158,8 +161,6 @@
     "refs",
     "branches",
     "hooks/update.sample",
-    "hooks/push-to-checkout.sample",
-    "1장/1.1_자바스크립트의_동등_비교.md",
-    "1장/상욱/1.1_자바스크립트의_동등_비교.md"
+    "1장/1.1_자바스크립트의_동등_비교.md"
   ]
 }
