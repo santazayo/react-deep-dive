@@ -7,7 +7,7 @@
 ### 읽기 전 알면 좋은 사전 지식 📑
 #### React 최적화 컴파일러 ([링크](https://ko.react.dev/reference/react/use#use))
 
-> `**= React Forget`, `auto-memoizing compiler`**
+> **`= React Forget`, `auto-memoizing compiler`**
 React 의 프로그래밍 모델을 유지하면서 재렌더링 비용을 최소화하기 위해 `useMemo` 와 `useCallback` 에 상응하는 호출을 자동으로 생성하는 컴파일러입니다. 
 
 최근 저희는 컴파일러의 안정성과 성능을 높이기 위해 컴파일러 재작업을 완료했습니다. 이 새로운 아키텍처를 통해 [로컬 변이 사용](https://ko.react.dev/learn/keeping-components-pure#local-mutation-your-components-little-secret)과 같은 더 복잡한 패턴을 분석하고 메모화할 수 있게 되었으며, `memoization Hooks` 와 동등한 수준 이상으로 많은 새로운 컴파일 시간 최적화 기회가 열리게 되었습니다.
@@ -65,8 +65,13 @@ function AppContainer() {
 ### 👉🏻 참고
 
 [React Compiler - Understanding Idiomatic React (React Forget) - GitNation](https://portal.gitnation.org/contents/understanding-idiomatic-react)
+
 [How React Forget will make React useMemo and useCallback hooks absolutely redundant](https://dev.to/usulpro/how-react-forget-will-make-react-usememo-and-usecallback-hooks-absolutely-redundant-4l68)
+
 [New client-side hooks coming to React 19](https://marmelab.com/blog/2024/01/23/react-19-new-hooks.html?ref=dailydev)
+
 [[번역] React 19에서 새롭게 등장하는 클라이언트 사이드 훅](https://velog.io/@typo/new-client-side-hooks-react-19?utm_source=substack&utm_medium=email)
+
 [[번역] 리액트가 컴파일될 예정입니다](https://velog.io/@surim014/react-19-will-be-compiled?utm_source=substack&utm_medium=email)
+
 https://www.youtube.com/watch?v=lGEMwh32soc
